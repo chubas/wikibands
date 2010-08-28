@@ -429,9 +429,14 @@ color: #907C69;
 }
 
 .album-cover {
-margin:15px 15px 15px 0;
-float:left;
-position:relative;
+  margin:15px 15px 15px 0;
+  float:left;
+  position:relative;
+}
+
+.album-cover a {
+  text-decoration: none;
+  outline: none;
 }
 
 .album-cover span {
@@ -452,6 +457,7 @@ position:relative;
   height:72px;
   left:2px;
   top:1px;
+  border: none;
 }
 
 #help {

@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  band_name: MyString
+  album_title: MyString
+  cover_file_name: MyString
+  cover_content_type: MyString
+  cover_file_size: 1
+  cover_updated_at: 2010-07-25 00:41:58
+  wikipedia_url: MyString
+  flickr_url: MyString
+  quotations_url: MyString
+  review: MyText
+
+two:
+  band_name: MyString
+  album_title: MyString
+  cover_file_name: MyString
+  cover_content_type: MyString
+  cover_file_size: 1
+  cover_updated_at: 2010-07-25 00:41:58
+  wikipedia_url: MyString
+  flickr_url: MyString
+  quotations_url: MyString
+  review: MyText

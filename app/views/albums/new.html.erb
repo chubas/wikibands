@@ -1,0 +1,94 @@
+<div id="editor">
+  <div id="image-editor" class="grid_10">
+    <canvas id="disc-creator">
+      Your browser don't support Canvas. Go grab a decent one right now
+    </canvas>
+    <div id="image-slider"></div>
+  </div>
+
+  <div id="controls" class="grid_6">
+    <div class="the-band">
+      <h2>The band</h2>
+      <div class="name">
+        <label for="bandname" class="edit-text">Click to edit</label>
+        <div id="bandname"><%= extract_band_name_from @wikipedia.title %></div>
+      </div>
+
+      <div class="font">
+        <label for="band-font" class="choose-font">Font, size and color</label>
+        <div class="select-font">
+          <ul class="choose-band-font">
+            <% @fonts.each do |font| %>
+              <li>
+                <%= content_tag :div, font, :style => %|font-family: "#{font}"; font-weight: bold| %>
+              </li>
+            <% end %>
+          </ul>
+          <input type="color" name="color3" text="hidden" value="#000" class="color" id="bandname-colorpicker">
+        </div>
+        <div id="bandname-size"></div>
+      </div>
+
+      <label for="bands-position" class="text-position">Band's name position</label>
+      <div id="bandname-slider-vertical"></div>
+      <div id="bandname-slider-horizontal"></div>
+
+    </div>
+    <div class="the-album">
+      <h2>The album</h2>
+      <div class="name">
+        <label for="discname" class="edit-text">Click to edit</label>
+        <div id="discname"><%= extract_album_title_from @quotation.text %></div>
+      </div>
+
+      <div class="font">
+        <label for="disc-font" class="choose-font">Font, size and color</label>
+        <div class="select-font">
+          <ul class="choose-disc-font">
+            <% @fonts.each do |font| %>
+              <li>
+                <%= content_tag :div, font, :style => %|font-family: "#{font}"; font-weight: bold| %>
+              </li>
+            <% end %>
+          </ul>
+          <input type="color" name="color3" text="hidden" value="#000" class="color" id="discname-colorpicker">
+        </div>
+        <div id="discname-size"></div>
+      </div>
+
+      <label for="bands-position" class="text-position">Album's name position</label>
+      <div id="discname-slider-vertical"></div>
+      <div id="discname-slider-horizontal"></div>
+    </div>
+    <%= form_for @album, :url => albums_path, :html => { :multipart => true } do |form| %>
+      <%= form.hidden_field :flickr_url,      :value => @flickr.link    %>
+      <%= form.hidden_field :wikipedia_url,   :value => @wikipedia.link %>
+      <%= form.hidden_field :quotations_url,  :value => @quotation.link %>
+      <%= form.hidden_field :encoded_album                              %>
+      <%= form.hidden_field :band_name,       :value => extract_band_name_from(@wikipedia.title)  %>
+      <%= form.hidden_field :album_title,     :value => extract_album_title_from(@quotation.text) %>
+      <%= form.submit %>
+    <% end %>
+  </div>
+</div>
+<div class="clear"></div>
+<div id="details">
+  <div class="grid_16">
+    <h2>Where it came from</h2>
+  </div>
+  <div id="wikipedia" class="grid_5">
+    <h3>Wikipedia</h3>
+    <p><%= link_to @wikipedia.title, @wikipedia.link %></p>
+  </div>
+  <div id="quotations-page" class="grid_6">
+    <h3>Quotations page</h3>
+    <p><%= link_to @quotation.text, @quotation.link %></p>
+    <p class="author"><%= @quotation.author %></p>
+  </div>
+  <div id="flickr" class="grid_5">
+    <h3>Flickr</h3>
+    <%= link_to image_tag(@flickr.thumb), @flickr.link, :class => 'flickr-link' %>
+    <p><%= link_to @flickr.title, @flickr.link %></p>
+    <img src="<%= @flickr.data %>" class="disc-image" style="display:none" />
+  </div>
+</div>

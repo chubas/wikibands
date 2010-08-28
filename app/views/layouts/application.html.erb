@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikibands</title>
+  <%= stylesheet_link_tag :all %>
+<%= javascript_include_tag 'jquery-1.4.2', 'jquery-ui-1.8.2', 'mColorPicker', 'jquery.editable-1.3.3.min', 'font-picker', 'application' %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div class="wrapper">
+    <div id="header-wrapper">
+      <div class="container_16">
+        <div id="header" class="grid_16">
+          <h1> Random <strong>band</strong> generator </h1> <!-- Question: is this bad for SEO? -->
+        </div>
+      </div>
+      <div class="header-bottom clear"></div>
+    </div>
+    <div id="main-wrapper">
+      <div id="main" class="container_16">
+        <%= yield %>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="footer-wrapper">
+      <div class="container_16">
+        <div id="footer" class="grid_16">
+          Wikibands - by <%= link_to '@chubas', 'http://twitter.com/chubas' %>, 2010.
+          Under a Creative Commons License.
+          Fork me at <%= link_to 'github', 'http://github.com/chubas/wikibands' %>.
+        </div>
+      </div>
+      <div class="footer-bottom clear"></div>
+    </div>
+  </div>
+</body>
+</html>

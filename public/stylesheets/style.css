@@ -1,0 +1,432 @@
+@font-face {
+  font-family: 'BanksiaBold';
+  src: url('../fonts/banksb20-webfont.eot');
+  src: local('☺'), url('../fonts/banksb20-webfont.woff') format('woff'), url('../fonts/banksb20-webfont.ttf') format('truetype'), url('../fonts/banksb20-webfont.svg#webfontpoecp44q') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CarbonType';
+  src: url('../fonts/carbontype-webfont.eot');
+  src: local('☺'), url('../fonts/carbontype-webfont.woff') format('woff'), url('../fonts/carbontype-webfont.ttf') format('truetype'), url('../fonts/carbontype-webfont.svg#webfonttWUHSVqR') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '20DB';
+  src: url('../fonts/20db-webfont.eot');
+  src: local('☺'), url('../fonts/20db-webfont.woff') format('woff'), url('../fonts/20db-webfont.ttf') format('truetype'), url('../fonts/20db-webfont.svg#webfonttowE2OLN') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'College';
+  src: url('../fonts/COLLEGE-webfont.eot');
+  src: local('☺'), url('../fonts/COLLEGE-webfont.woff') format('woff'), url('../fonts/COLLEGE-webfont.ttf') format('truetype'), url('../fonts/COLLEGE-webfont.svg#webfontK6nYKy7E') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'CopystructBold';
+  src: url('../fonts/COPYB___-webfont.eot');
+  src: local('☺'), url('../fonts/COPYB___-webfont.woff') format('woff'), url('../fonts/COPYB___-webfont.ttf') format('truetype'), url('../fonts/COPYB___-webfont.svg#webfontRM7XM0ph') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CPMonoLight';
+  src: url('../fonts/CPMono_v07_Light-webfont.eot');
+  src: local('☺'), url('../fonts/CPMono_v07_Light-webfont.woff') format('woff'), url('../fonts/CPMono_v07_Light-webfont.ttf') format('truetype'), url('../fonts/CPMono_v07_Light-webfont.svg#webfontb8vmFP4U') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Forelle';
+  src: url('../fonts/Forelle-webfont.eot');
+  src: local('☺'), url('../fonts/Forelle-webfont.woff') format('woff'), url('../fonts/Forelle-webfont.ttf') format('truetype'), url('../fonts/Forelle-webfont.svg#webfontRyAXJoKb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'LittleTroubleGirl';
+  src: url('../fonts/littletroublegirl-webfont.eot');
+  src: local('☺'), url('../fonts/littletroublegirl-webfont.woff') format('woff'), url('../fonts/littletroublegirl-webfont.ttf') format('truetype'), url('../fonts/littletroublegirl-webfont.svg#webfontsctPnDlR') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EmbossedBlack';
+  src: url('../fonts/Embossed_Black_Normal-webfont.eot');
+  src: local('☺'), url('../fonts/Embossed_Black_Normal-webfont.woff') format('woff'), url('../fonts/Embossed_Black_Normal-webfont.ttf') format('truetype'), url('../fonts/Embossed_Black_Normal-webfont.svg#webfontymDT2iEt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFArcheryBlack';
+  src: url('SF_Archery_Black-webfont.eot');
+  src: local('☺'), url('../fonts/SF_Archery_Black-webfont.woff') format('woff'), url('../fonts/SF_Archery_Black-webfont.ttf') format('truetype'), url('../fonts/SF_Archery_Black-webfont.svg#webfontI2Ak41SQ') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpinCycle';
+  src: url('spincycle_ot-webfont.eot');
+  src: local('☺'), url('../fonts/spincycle_ot-webfont.woff') format('woff'), url('../fonts/spincycle_ot-webfont.ttf') format('truetype'), url('../fonts/spincycle_ot-webfont.svg#webfont3P2HGj6R') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tagapagsalaysay';
+  src: url('TAGACNB_-webfont.eot');
+  src: local('☺'), url('../fonts/TAGACNB_-webfont.woff') format('woff'), url('../fonts/TAGACNB_-webfont.ttf') format('truetype'), url('../fonts/TAGACNB_-webfont.svg#webfontAvfvhYru') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WoodenNickelBlack';
+  src: url('WOODENNI-webfont.eot');
+  src: local('☺'), url('../fonts/WOODENNI-webfont.woff') format('woff'), url('../fonts/WOODENNI-webfont.ttf') format('truetype'), url('../fonts/WOODENNI-webfont.svg#webfontKpHUSPK3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Xenophone';
+  src: url('../fonts/xenophone-webfont.eot');
+  src: local('☺'), url('../fonts/xenophone-webfont.woff') format('woff'), url('../fonts/xenophone-webfont.ttf') format('truetype'), url('../fonts/xenophone-webfont.svg#webfontvywCJPkN') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'YanoneKaffeesatz';
+  src: url('../fonts/yanonekaffeesatz-regular-webfont.eot');
+  src: local('☺'), url('../fonts/yanonekaffeesatz-regular-webfont.woff') format('woff'), url('../fonts/yanonekaffeesatz-regular-webfont.ttf') format('truetype'), url('../fonts/yanonekaffeesatz-regular-webfont.svg#webfontoLR9XIiE') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YanoneKaffeesatz';
+  src: url('../fonts/yanonekaffeesatz-bold-webfont.eot');
+  src: local('☺'), url('../fonts/yanonekaffeesatz-bold-webfont.woff') format('woff'), url('../fonts/yanonekaffeesatz-bold-webfont.ttf') format('truetype'), url('../fonts/yanonekaffeesatz-bold-webfont.svg#webfontNF2BocN6') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'YanoneKaffeesatz', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 54px;
+  text-align: center;
+  display: block;
+  color: #D39F55;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 4px #161414;
+}
+
+h1 strong {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+#header-wrapper {
+  background-color: #31261C;
+}
+
+.header-bottom {
+  display: block;
+  width: 100%;
+  height: 8px;
+  background-color: #32271E;
+  visibility: visible;
+  -webkit-box-shadow: 0 3px 5px #32271e;
+  -moz-box-shadow: 0 3px 5px #32271e;
+  box-shadow: 0 3px 5px #32271e;
+}
+
+#main-wrapper {
+  background-color: #FBF9E1;
+  padding-top: 40px;
+}
+
+.bandname-font-dropdwon {
+  width: 300px;
+}
+
+.font-picker {
+  width: 240px;
+  margin-left: 20px;
+  border: 1px solid #32271E;
+  border-right: none;
+  position: relative;
+  float: left;
+  cursor: pointer;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  background-color: #DDD7C4;
+}
+
+.font-picker ul {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 0;
+  background-color: #D1CCBB; 
+  border: 1px solid #31261C;
+  border-top: none;
+}
+
+.font-picker ul li {
+  font-size: 1.2em;
+  padding: 2px 5px 2px 10px;
+  margin-left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(221,215,196)), color-stop(1, rgb(194,189,173))); 
+}
+
+.font-picker ul li:first-child {
+  border-top: 2px dotted #3D352E;
+}
+
+.font-picker ul li.highlighted {
+  background-color: #3D352E;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(61, 53, 46 )), color-stop(1, rgb(49, 38, 28 )));
+  border: 2px;
+  color: #FBF9E1;
+}
+
+.font-picker div.current {
+  height: 30px;
+  padding-left: 15px;
+}
+
+.font-picker div.current div {
+  padding: 3px 5px;
+}
+
+#bandname-colorpicker, #discname-colorpicker,
+#icp_bandname-colorpicker, #icp_discname-colorpicker {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #32271E;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+}
+
+h2 {
+  color: #32271E;
+  display: block;
+  font-family: YanoneKaffeesatz, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-shadow: #B99 1px 1px 4px;
+}
+
+#controls input[type=submit] {
+  background-color: #CB1600;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #CB1600), color-stop(1, #9A1403));
+  padding: 8px;
+  width: 220px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 0 -1px 1px rgba(50, 39, 30, 0.6);
+  -webkit-box-shadow: rgba(50, 39, 30, 0.8) 0px 2px 4px;
+  border-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+.the-album, .the-band {
+  position: relative;
+  padding-bottom: 1.3em;
+  margin-bottom: 15px;
+}
+
+.text-position, .edit-text {
+  font-size: 0.7em;
+  text-align: right;
+  display: block;
+  font-style: italic;
+}
+
+.text-position { margin-right: 2.2em; }
+
+.choose-font {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+#bandname-slider-horizontal, #discname-slider-horizontal {
+  width:  160px;
+  position: absolute;
+  right: 1.2em;
+  bottom: 0;
+}
+
+#bandname-slider-vertical, #discname-slider-vertical {
+  height: 160px;
+  position: absolute;
+  right: 0;
+  bottom: 1.2em;
+}
+
+#bandname-size, #discname-size {
+  width: 270px;
+  margin: 7px 0 15px 20px;
+  clear: both;
+}
+
+.name {
+  width: 280px;
+  margin-left: 20px;
+}
+
+.name #bandname, .name #discname {
+  background-color: #D9D2BB;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  min-height: 2.4em;
+  text-shadow: 1px 0 1px rgba(50,39,30,0.2);
+}
+
+.name #bandname textarea,
+.name #discname textarea {
+  width: 100%;
+  border: none;
+  background-color: #D9D2BB;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: none;
+  font-size: 16px;
+  margin: -10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  color: #CB1600;
+}
+
+.font {
+  margin: 2em 0;
+}
+
+#footer {
+  text-align: center;
+}
+
+#wikipedia h3, #quotations-page h3, #flickr h3 {
+  padding-left: 40px;
+  min-height: 30px;
+  padding-top: 5px;
+}
+
+#wikipedia h3 {
+  background: transparent url("/images/wikipedia.png") 0 0 no-repeat;
+}
+
+#wikipedia p {
+  font-size: 1.2em;
+}
+
+#quotations-page h3 {
+  background: transparent url("/images/quotations.png") 0 0 no-repeat;
+}
+
+#quotations-page p.author {
+  font-size: 0.8em;
+  font-style: italic;
+  float: right;
+}
+
+#flickr h3 {
+  background: transparent url("/images/flickr.png") 0 0 no-repeat;
+}
+
+a {
+  color: #BE2525;
+}
+
+a:visited {
+  color: #BE5025;
+}
+
+a:hover {
+  color: #BE6825;
+}
+
+.flickr-link {
+  text-decoration: none;
+}
+
+#footer-wrapper {
+  background-color: #31261C;
+}
+
+#footer {
+  padding: 15px;
+  color: #907C69;
+}
+
+.album-cover {
+  margin:15px 15px 15px 0;
+  float:left;
+  position:relative;
+}
+
+.album-cover span {
+  display:block;
+  position:relative;
+  background:url(/images/vinyl.png) 0 0 no-repeat;
+  float:left;
+  width:97px;
+  height:82px;
+  text-indent:-1000em;
+  overflow:hidden;
+  z-index:1;
+}
+
+.album-cover img {
+  position:absolute;
+  width:72px;
+  height:72px;
+  left:2px;
+  top:1px;
+}

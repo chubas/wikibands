@@ -4,7 +4,7 @@ Wikibands::Application.routes.draw do
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
-  resources :albums, :except => [:show, :destroy, :update]
+  resources :albums, :except => [:destroy, :update]
 
   # Sample resource route with options:
   #   resources :products do

@@ -1,0 +1,10 @@
+<div class="album-show">
+  <div class="details">
+    <div class="links">
+      <%= link_to @album.band_name, @album.wikipedia_url, :class => 'wikipedia', :target => '_blank' %>
+      <%= link_to @album.album_title, @album.quotations_url, :class => 'quotations', :target => '_blank' %>
+      <%= link_to "Original photo", @album.flickr_url, :class => 'flickr', :target => '_blank' %>
+    </div>
+  </div>
+  <%= image_tag @album.cover.url %>
+</div>

@@ -1,5 +1,9 @@
 $(function(){
-
+  $('#help').mouseover(function(){
+    $(this).find('#description').show();
+  }).mouseout(function(){
+    $(this).find('#description').hide();
+  });
   var canvas = document.getElementById("disc-creator");
   if(canvas && canvas.getContext) {
     var context = canvas.getContext('2d');

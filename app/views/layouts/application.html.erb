@@ -12,6 +12,7 @@
       <div class="container_16">
         <div id="header" class="grid_16">
           <h1> Random <strong>band</strong> generator </h1> <!-- Question: is this bad for SEO? -->
+          <%= yield :extra_header %>
         </div>
       </div>
       <div class="header-bottom clear"></div>
@@ -32,6 +33,10 @@
       </div>
       <div class="footer-bottom clear"></div>
     </div>
+    
+    <a href="http://github.com/chubas/wikibands">
+      <img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub" />
+    </a>
   </div>
 </body>
 </html>

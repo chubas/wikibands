@@ -286,7 +286,10 @@ h2 {
   font-style: italic;
 }
 
-.text-position { margin-right: 2.2em; }
+.text-position {
+  margin-right: 2.2em;
+  clear: both;
+}
 
 .choose-font {
   display: block;
@@ -335,95 +338,95 @@ h2 {
 }
 
 .name #bandname, .name #discname {
-  background-color: #D9D2BB;
-  font-weight: bold;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 16px;
-  min-height: 2.4em;
-  text-shadow: 1px 0 1px rgba(50,39,30,0.2);
+background-color: #D9D2BB;
+font-weight: bold;
+padding: 10px;
+cursor: pointer;
+font-size: 16px;
+min-height: 2.4em;
+text-shadow: 1px 0 1px rgba(50,39,30,0.2);
 }
 
 .name #bandname textarea,
 .name #discname textarea {
-  width: 100%;
-  border: none;
-  background-color: #D9D2BB;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  outline: none;
-  font-size: 16px;
-  margin: -10px;
-  padding-left: 10px;
-  padding-top: 10px;
-  font-weight: bold;
-  color: #CB1600;
+width: 100%;
+border: none;
+background-color: #D9D2BB;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+outline: none;
+font-size: 16px;
+margin: -10px;
+padding-left: 10px;
+padding-top: 10px;
+font-weight: bold;
+color: #CB1600;
 }
 
 .font {
-  margin: 2em 0;
+margin: 2em 0;
 }
 
 #footer {
-  text-align: center;
+text-align: center;
 }
 
 #wikipedia h3, #quotations-page h3, #flickr h3 {
-  padding-left: 40px;
-  min-height: 30px;
-  padding-top: 5px;
+padding-left: 40px;
+min-height: 30px;
+padding-top: 5px;
 }
 
 #wikipedia h3 {
-  background: transparent url("/images/wikipedia.png") 0 0 no-repeat;
+background: transparent url("/images/wikipedia.png") 0 0 no-repeat;
 }
 
 #wikipedia p {
-  font-size: 1.2em;
+font-size: 1.2em;
 }
 
 #quotations-page h3 {
-  background: transparent url("/images/quotations.png") 0 0 no-repeat;
+background: transparent url("/images/quotations.png") 0 0 no-repeat;
 }
 
 #quotations-page p.author {
-  font-size: 0.8em;
-  font-style: italic;
-  float: right;
+font-size: 0.8em;
+font-style: italic;
+float: right;
 }
 
 #flickr h3 {
-  background: transparent url("/images/flickr.png") 0 0 no-repeat;
+background: transparent url("/images/flickr.png") 0 0 no-repeat;
 }
 
 a {
-  color: #BE2525;
+color: #BE2525;
 }
 
 a:visited {
-  color: #BE5025;
+color: #BE5025;
 }
 
 a:hover {
-  color: #BE6825;
+color: #BE6825;
 }
 
 .flickr-link {
-  text-decoration: none;
+text-decoration: none;
 }
 
 #footer-wrapper {
-  background-color: #31261C;
+background-color: #31261C;
 }
 
 #footer {
-  padding: 15px;
-  color: #907C69;
+padding: 15px;
+color: #907C69;
 }
 
 .album-cover {
-  margin:15px 15px 15px 0;
-  float:left;
-  position:relative;
+margin:15px 15px 15px 0;
+float:left;
+position:relative;
 }
 
 .album-cover span {
@@ -444,4 +447,44 @@ a:hover {
   height:72px;
   left:2px;
   top:1px;
+}
+
+#help {
+  width: 48px;
+  height: 39px;
+  background: url(../images/info-help.png) no-repeat;
+  position: relative;
+  cursor: pointer;
+  position: absolute;
+  right: 60px;
+  top: 40px;
+  z-index: 2000;
+}
+
+#help #description {
+  display: none;
+  position:absolute;
+  font-size: 14px;
+  left: -180px;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  width: 240px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(224,90,0)),
+    color-stop(0.62, rgb(240,171,9))
+  );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(224,90,0) 0%,
+    rgb(240,171,9) 62%
+  );
+  -moz-border-radius:10px;
+  -webkit-border-radius: 10px;
+  color:#FFFFFF;
+  margin:1em 0 3em;
 }

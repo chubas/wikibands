@@ -157,6 +157,11 @@ h1 strong {
   color: #FFFFFF;
 }
 
+h1 a {
+  text-decoration: none;
+  color: #D39F55;
+}
+
 #header-wrapper {
   background-color: #31261C;
 }
@@ -487,4 +492,81 @@ position:relative;
   -webkit-border-radius: 10px;
   color:#FFFFFF;
   margin:1em 0 3em;
+}
+
+/** ALBUMS **/
+.album {
+  float: left;
+  margin: 0px;
+  padding: 20px;
+  width: 280px;
+}
+
+.album-band-name {
+  padding-top: 16px; 
+}
+
+.album-band-name a{
+  font-family: YanoneKaffeesatz, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.album-album-title a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.pagination {
+  margin: 0px auto;
+  padding: 20px 0px 40px;
+  text-align: center;
+}
+
+.album-show {
+  text-align: center;
+}
+
+.album-show .details .wikipedia {
+  text-indent: -9999px;
+  background-image: url(../images/wikipedia.png);
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 15px;
+}
+
+.album-show .details .flickr {
+  text-indent: -9999px;
+  background-image: url(../images/flickr.png);
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.album-show .details .quotations {
+  text-indent: -9999px;
+  background-image: url(../images/quotations.png);
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 15px;
+}
+
+.album-show .details .links {
+  margin: 15px auto 30px;
+  text-align: center;
+  width: 120px;
+}
+
+.album-show img {
+  padding: 15px;
 }

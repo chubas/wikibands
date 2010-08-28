@@ -1,12 +1,15 @@
 <% @albums.each do |album| %>
   <div class="album">
-    <div><%= album.band_name %></div>
-    <div><%= album.album_title %></div>
     <div class="album-cover">
-      <span></span>
-      <%= image_tag album.cover.url(:thumb) %>
+      <%= link_to album do %>
+        <span></span>
+        <%= image_tag album.cover.url(:thumb) %>
+      <% end %>
     </div>
+    <div class="album-band-name"><%= link_to album.band_name, album %></div>
+    <div class="album-album-title"><%= link_to album.album_title, album %></div>
+    <div class="clear"></div>
   </div>
 <% end %>
-
+<div class="clear"></div>
 <%= will_paginate @albums %>

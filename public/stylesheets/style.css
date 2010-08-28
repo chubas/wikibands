@@ -309,9 +309,24 @@ h2 {
 }
 
 #bandname-size, #discname-size {
-  width: 270px;
-  margin: 7px 0 15px 20px;
-  clear: both;
+  width: 220px;
+  margin: 12px 10px 15px;
+  float: left;
+}
+
+.font-size-smaller {
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 14px;
+  padding-left: 20px;
+  float: left;
+}
+
+.font-size-bigger {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  padding-top: 6px;
 }
 
 .name {

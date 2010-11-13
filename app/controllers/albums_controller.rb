@@ -1,4 +1,7 @@
 class AlbumsController < ApplicationController
+
+  downloads_files_for :album, :cover
+
   def index
     @albums = Album.paginate :page => params[:page], :per_page => 9
   end
@@ -23,7 +26,7 @@ class AlbumsController < ApplicationController
 
     @album = Album.new
   end
-  
+
   def show
     @album = Album.find(params[:id])
   end

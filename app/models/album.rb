@@ -7,7 +7,10 @@ class Album < ActiveRecord::Base
   validates_presence_of :wikipedia_url, :flickr_url, :quotations_url
 
   has_attached_file :cover,
-                    :styles => { :thumb => "72x72" }
+                    :styles => { :thumb => "72x72" },
+                    :storage => :database
+
+  default_scope select_without_file_columns_for(:cover)
 
   def encoded_album
     "" # Not needed by the moment except for building forms
